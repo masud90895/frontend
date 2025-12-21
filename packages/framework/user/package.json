@@ -1,0 +1,23 @@
+{
+  "name": "@metafox/user",
+  "version": "5.0.1",
+  "description": "@metafox/user",
+  "main": "dist/index.js",
+  "author": "developer@phpfox.com",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "repository": {},
+  "peerDependencies": {},
+  "scripts": {
+    "build": "metafox build-package && tsc -p tsconfig.build.json",
+    "test": "metafox jest-unittest",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src --fix"
+  },
+  "dependencies": {
+    "story": "link:packages/metafox/story"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "mobile": {
+    "header": {
+      "elements": {
+        "header": {
+          "gridContainer": false,
+          "disableGutters": true,
+          "elements": {
+            "header": {
+              "maxWidth": false
+            }
+          }
+        }
+      }
+    },
+    "content": {
+      "elements": {
+        "top": {
+          "disableGutters": true,
+          "elements": {
+            "top": {}
+          }
+        },
+        "main": {
+          "elements": {
+            "main": {
+              "xs": 12
+            }
+          }
+        }
+      }
+    },
+    "footer": {
+      "elements": {
+        "main": {
+          "rootStyle": {
+            "maxWidth": "lg"
+          },
+          "elements": {
+            "bottom": {
+              "maxWidth": false
+            }
+          }
+        }
+      }
+    },
+    "blocks": [
+      {
+        "blockId": "jvpcv",
+        "component": "core.siteBarMobileBlock",
+        "slotName": "header",
+        "pageName": "home.member",
+        "pageSize": "small"
+      }
+    ],
+    "info": {
+      "bundle": "admincp",
+      "name": "mobile"
+    }
+  },
+  "dashboard": {
+    "bundle": "admincp",
+    "blocks": [
+      {
+        "component": "core.block.AdminMainTop",
+        "slotName": "main_top"
+      }
+    ],
+    "content": {
+      "elements": {
+        "top": {
+          "gridContainer": true,
+          "disableGutters": true,
+          "rootStyle": {
+            "pl": 1,
+            "pr": 1
+          },
+          "wrap": "wrap",
+          "elements": {
+            "top": {
+              "xs": 12,
+              "rootStyle": {
+                "xs": 12,
+                "sm": 8
+              },
+              "slotName": "top",
+              "stageStyle": {
+                "sx": {
+                  "height": "100%"
+                }
+              },
+              "contentStyle": {
+                "sx": {
+                  "height": "100%"
+                }
+              }
+            },
+            "top2": {
+              "xs": 12,
+              "rootStyle": {
+                "xs": 12,
+                "sm": 4
+              }
+            }
+          }
+        },
+        "main": {
+          "gridContainer": true,
+          "disableGutters": true,
+          "rootStyle": {
+            "pl": 1,
+            "pr": 1
+          },
+          "elements": {
+            "main": {
+              "xs": 12
+            }
+          }
+        },
+        "bottom": {
+          "gridContainer": true,
+          "disableGutters": true,
+          "rootStyle": {
+            "pl": 1,
+            "pr": 1,
+            "pb": 2
+          },
+          "wrap": "wrap",
+          "elements": {
+            "bottom1": {
+              "xs": 12,
+              "rootStyle": {
+                "xs": 12,
+                "sm": 4,
+                "md": 3
+              }
+            },
+            "bottom": {
+              "xs": 12,
+              "rootStyle": {
+                "xs": 12,
+                "sm": 8,
+                "md": 6
+              }
+            },
+            "bottom2": {
+              "xs": 12,
+              "rootStyle": {
+                "xs": 12,
+                "sm": 4,
+                "md": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "title": "AdminCP dashboard template",
+    "description": "",
+    "info": {
+      "bundle": "admincp",
+      "name": "dashboard"
+    }
+  },
+  "blank": {
+    "content": {
+      "elements": {
+        "main": {
+          "elements": {
+            "main": {
+              "flexWeight": "1"
+            }
+          }
+        }
+      }
+    },
+    "title": "Blank - Layout without header, footer",
+    "description": "",
+    "info": {
+      "bundle": "admincp",
+      "name": "blank"
+    }
+  },
+  "admincp": {
+    "bundle": "admincp",
+    "title": "AdminCP",
+    "blocks": [
+      {
+        "component": "core.block.AdminMainTop",
+        "slotName": "main_top"
+      }
+    ],
+    "content": {
+      "elements": {
+        "main": {
+          "gridContainer": true,
+          "disableGutters": true,
+          "wrap": "wrap",
+          "elements": {
+            "main_top": {
+              "xs": 12,
+              "slotName": "main_top"
+            },
+            "main": {
+              "xs": 12,
+              "slotName": "main"
+            }
+          }
+        }
+      }
+    },
+    "info": {
+      "bundle": "admincp",
+      "name": "admincp"
+    }
+  }
+}

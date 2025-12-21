@@ -1,0 +1,19 @@
+{
+  "name": "@metafox/scrollbars",
+  "version": "5.0.1",
+  "description": "metafox scrollbars component",
+  "private": false,
+  "scripts": {
+    "test": "metafox jest-unittest"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "developer@phpfox.com",
+  "license": "MIT",
+  "dependencies": {
+    "dom-css": "^2.0.0",
+    "prop-types": "^15.5.10",
+    "raf": "^3.1.0"
+  },
+  "peerDependencies": {}
+}

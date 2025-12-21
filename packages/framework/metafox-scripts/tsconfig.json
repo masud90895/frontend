@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "declaration": false,
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "newLine": "LF",
+    "noEmitOnError": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "noErrorTruncation": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "allowJs": true,
+    "paths": {}
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,253 @@
+{
+  "Notification - Small Lists": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "divider",
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": "",
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2
+        }
+      },
+      "title": {
+        "variant": "h3",
+        "lines": 0,
+        "fixHeight": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body1",
+        "lines": 2,
+        "sx": {
+          "mb": 0.5,
+          "color": "textSecondary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      },
+      "text": {
+        "sx": {
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "admincp",
+      "name": "Notification - Small Lists"
+    }
+  },
+  "App Store Product - Main Cards": {
+    "itemProps": {
+      "showActionMenu": 0,
+      "variant": "flattedCard",
+      "media": {
+        "width": 128,
+        "aspectRatio": "11",
+        "placement": "start",
+        "sx": {
+          "mr": 2,
+          "borderRadius": 1
+        }
+      },
+      "title": {
+        "component": "div",
+        "variant": "inherit",
+        "color": "primary",
+        "sx": {
+          "fontSize": "20px",
+          "fontWeight": "400"
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 3,
+        "sx": {
+          "color": "text.secondary"
+        }
+      },
+      "content": {
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": ""
+      }
+    },
+    "info": {
+      "bundle": "admincp",
+      "name": "App Store Product - Main Cards"
+    }
+  },
+  "App Store Product - Main Cards - Small": {
+    "itemProps": {
+      "showActionMenu": 0,
+      "variant": "flattedCard",
+      "media": {
+        "width": 96,
+        "aspectRatio": "11",
+        "placement": "start",
+        "sx": {
+          "borderRadius": 1
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 2,
+        "color": "primary"
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 3,
+        "sx": {
+          "color": "text.secondary"
+        }
+      },
+      "content": {
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": ""
+      }
+    },
+    "info": {
+      "bundle": "admincp",
+      "name": "App Store Product - Main Cards - Small"
+    }
+  },
+  "User - Manage Hidden": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "0",
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": 1,
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2,
+          "ml": 0
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1,
+        "sx": {
+          "mt": 0.5
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 0,
+        "sx": {
+          "mt": 0.5,
+          "color": "textHint"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto",
+        "sx": {
+          "position": "relative"
+        }
+      },
+      "text": {
+        "sx": {
+          "ml": 1.5
+        }
+      }
+    },
+    "info": {
+      "name": "User - Manage Hidden"
+    }
+  },
+  "Friend - Small List": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "bottom",
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": "",
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2,
+          "ml": 0
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1,
+        "sx": {
+          "mt": 0.5
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 0,
+        "sx": {
+          "mt": 0.5,
+          "color": "textHint"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto",
+        "sx": {
+          "position": "relative"
+        }
+      },
+      "text": {
+        "sx": {
+          "ml": 1.5
+        }
+      }
+    },
+    "info": {
+      "name": "Friend - Small List"
+    }
+  }
+}

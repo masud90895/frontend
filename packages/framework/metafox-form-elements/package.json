@@ -1,0 +1,21 @@
+{
+  "name": "@metafox/form-elements",
+  "version": "5.0.1",
+  "main": "src/index.tsx",
+  "author": "developer@phpfox.com",
+  "license": "MIT",
+  "private": false,
+  "repository": {},
+  "dependencies": {
+    "@date-io/moment": "v1",
+    "clsx": "1.1.1",
+    "formik": "^2",
+    "lodash": "^4.17.15",
+    "react-dnd": "^16",
+    "react-google-recaptcha-v3": "^1.9.7",
+    "shallowequal": "^1.1.0"
+  },
+  "scripts": {
+    "test": "metafox jest-unittest"
+  }
+}

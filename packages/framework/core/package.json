@@ -1,0 +1,25 @@
+{
+  "name": "@metafox/core",
+  "version": "5.0.1",
+  "description": "@metafox/core",
+  "main": "dist/index.js",
+  "author": "developer@phpfox.com",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "repository": {},
+  "peerDependencies": {},
+  "scripts": {
+    "build": "metafox build-package && tsc -p tsconfig.build.json",
+    "test": "metafox jest-unittest",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src --fix"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "react-helmet-async": "^2.0.5",
+    "embla-carousel-react": "8.6.0"
+  }
+}

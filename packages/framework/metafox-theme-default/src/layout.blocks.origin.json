@@ -1,0 +1,3430 @@
+{
+  "Subside Lists": {
+    "freeze": false,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        },
+        "variant": "Blocker"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "py": 2
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": 1,
+          "mt": 2,
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Subside Lists"
+    }
+  },
+  "Status Composer": {
+    "blockProps": {
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "borderColor": "divider",
+          "borderWidth": 1,
+          "borderStyle": "solid"
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mb": 0,
+          "mt": 2,
+          "borderRadius": 1
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Status Composer"
+    }
+  },
+  "Small Lists": {
+    "emptyPage": "hide",
+    "gridVariant": "gridView",
+    "blockProps": {
+      "linkViewAll": "/friend",
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "variant": "contained"
+      },
+      "headerStyle": {
+        "dividerVariant": "fullWidth"
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        }
+      }
+    },
+    "noHeader": false,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Small Lists"
+    }
+  },
+  "sidebar shortcut": {
+    "noFooter": true,
+    "blockProps": {
+      "titleStyle": {
+        "sx": {
+          "typography": "body1",
+          "color": "text.secondary",
+          "textTransform": "uppercase"
+        },
+        "component": "span"
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "none",
+          "pb": 3
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "height": "",
+          "pr": 2,
+          "pl": 2,
+          "pb": 0,
+          "mb": 1,
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "none"
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "sidebar shortcut"
+    }
+  },
+  "sidebar search box": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "textPrimary"
+        }
+      },
+      "contentStyle": {
+        "variant": "plained"
+      },
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "sidebar search box"
+    }
+  },
+  "sidebar primary menu": {
+    "noHeader": true,
+    "noFooter": true,
+    "blockProps": {
+      "blockStyle": {
+        "sx": {
+          "mt": 0,
+          "mb": 1.5,
+          "pr": 1,
+          "pl": 1,
+          "pt": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "sidebar primary menu"
+    }
+  },
+  "sidebar divider": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "primary"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "mt": 1,
+          "mb": 1
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0"
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "sidebar divider"
+    }
+  },
+  "sidebar app message": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "secondary"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 3,
+          "mb": 3,
+          "ml": 2,
+          "mr": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "pl": 0,
+          "pr": 0,
+          "bgcolor": "background.paper",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noFooter": false,
+    "info": {
+      "bundle": "web",
+      "name": "sidebar app message"
+    }
+  },
+  "sidebar app menu": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "primary"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0"
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "pl": 0,
+          "pr": 0,
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "sidebar app menu"
+    }
+  },
+  "sidebar app header": {
+    "freeze": true,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text.primary"
+        }
+      },
+      "contentStyle": {
+        "variant": "plained"
+      },
+      "headerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 3,
+          "pb": 1,
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "sidebar app header"
+    }
+  },
+  "sidebar app filter": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "primary"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0"
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "pr": 2,
+          "pl": 2
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "sidebar app filter"
+    }
+  },
+  "sidebar app category": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text.primary",
+          "component": "h3"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "p": 0,
+          "pb": 1
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "pt": 0,
+          "mt": 2,
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "pr": 2,
+          "pl": 2,
+          "pb": 3
+        }
+      }
+    },
+    "noHeader": 0,
+    "info": {
+      "bundle": "web",
+      "name": "sidebar app category"
+    }
+  },
+  "Side Contained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "h4"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "fullWidth",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "height": "48px"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 1,
+          "pb": 1
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mt": 2,
+          "borderRadius": 1
+        }
+      }
+    },
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Side Contained"
+    }
+  },
+  "Share Video Block": {
+    "blockProps": {
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "mb": 2,
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2,
+          "mt": 2,
+          "ml": 2,
+          "mr": 2
+        }
+      },
+      "headerStyle": {},
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "h3",
+          "color": "text.primary"
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Share Video Block"
+    }
+  },
+  "Search": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "variant": "blocker"
+      },
+      "headerStyle": {},
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "pt": 2,
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Search"
+    }
+  },
+  "Search Menu": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "h3",
+          "p": 2,
+          "pb": 0.5
+        }
+      },
+      "blockStyle": {
+        "sx": {}
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Search Menu"
+    }
+  },
+  "Resend Email - Contained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "h3"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pt": 2,
+          "pb": 0,
+          "color": "text.secondary"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "none",
+        "sx": {
+          "pt": 1,
+          "pb": 0,
+          "mr": 0,
+          "mt": 0,
+          "mb": 0
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "mt": 2,
+          "mb": 0,
+          "p": 2,
+          "borderRadius": 1
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Resend Email - Contained"
+    }
+  },
+  "Profile - Tab Contained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "h4"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 0,
+          "pb": 2,
+          "mt": 1
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "fullWidth",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 0.75,
+          "pb": 0.75,
+          "mr": 0,
+          "mt": 0,
+          "mb": 0,
+          "minHeight": "48px",
+          "height": "48px"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pt": 0,
+          "mt": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Tab Contained"
+    }
+  },
+  "Profile - Sub Tab Contained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h4"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "p": 0
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "pb": 2,
+          "m": 0,
+          "minHeight": "48px",
+          "height": "48px"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "borderRadius": 1,
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": false,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Sub Tab Contained"
+    }
+  },
+  "Profile - Sub Tab Contained No Title": {
+    "gridVariant": "gridView",
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h4",
+          "display": "none"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "mb": "2"
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "pb": 2,
+          "m": 0,
+          "justify-content": "right"
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": false,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Sub Tab Contained No Title"
+    }
+  },
+  "Profile - Side Contained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h4",
+          "color": ""
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "fullWidth",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 1,
+          "pb": 1,
+          "minHeight": "48px"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 1,
+          "pb": 1
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pt": 0,
+          "mt": 2
+        }
+      }
+    },
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Side Contained"
+    }
+  },
+  "Profile - Side Contained (no header divider)": {
+    "blockProps": {
+      "titleStyle": {
+        "sx": {
+          "typography": "h4"
+        },
+        "component": "h3"
+      },
+      "headerStyle": {
+        "dividerVariant": "none",
+        "sx": {
+          "height": "48px",
+          "pl": 2,
+          "pr": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pl": 0,
+          "mb": 2,
+          "mt": 2,
+          "overflow": "hidden"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Side Contained (no header divider)"
+    }
+  },
+  "Profile - Side Contained (no gutter)": {
+    "blockProps": {
+      "titleStyle": {
+        "sx": {
+          "typography": "h4"
+        },
+        "component": "h3"
+      },
+      "headerStyle": {
+        "dividerVariant": "fullWidth",
+        "sx": {
+          "height": "48px",
+          "pl": 2,
+          "pr": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pl": 0,
+          "mb": 2,
+          "mt": 2,
+          "overflow": "hidden"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Side Contained (no gutter)"
+    }
+  },
+  "Profile - Side Contained - Mobile": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h4",
+          "color": ""
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "fullWidth",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 1,
+          "pb": 1,
+          "minHeight": "48px"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 1,
+          "pb": 1
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 0,
+          "pt": 0,
+          "mt": 2
+        }
+      }
+    },
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Side Contained - Mobile"
+    }
+  },
+  "Profile Mobile - Contained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h4"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "fullWidth",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 0,
+          "pb": 0,
+          "mr": 0,
+          "mt": 0,
+          "mb": 0,
+          "minHeight": "48px",
+          "height": "48px"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "mt": 2,
+          "mb": 0
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile Mobile - Contained"
+    }
+  },
+  "Profile - Contained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h4"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "fullWidth",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 0,
+          "pb": 0,
+          "mr": 0,
+          "mt": 0,
+          "mb": 0,
+          "minHeight": "48px",
+          "height": "48px"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "mt": 2,
+          "mb": 0,
+          "borderRadius": 1
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Contained"
+    }
+  },
+  "Profile - Contained - Content Paper Full": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h4"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 0,
+          "pr": 0,
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "fullWidth",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 0,
+          "pb": 0,
+          "mr": 0,
+          "mt": 0,
+          "mb": 0,
+          "minHeight": "48px",
+          "height": "48px"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "mt": 2,
+          "mb": 0,
+          "borderRadius": 1
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Contained - Content Paper Full"
+    }
+  },
+  "Profile - Clean Body Only": {
+    "emptyPage": "core.block.no_content",
+    "gridVariant": "gridView",
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "mb": "2"
+        }
+      },
+      "headerStyle": {},
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mt": 2
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Clean Body Only"
+    }
+  },
+  "Profile - Clean Body Only No Default Empty Page": {
+    "gridVariant": "gridView",
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "m": 0,
+          "p": 0
+        }
+      },
+      "headerStyle": {},
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "m": 0
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Profile - Clean Body Only No Default Empty Page"
+    }
+  },
+  "Plained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "textPrimary"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pt": 1,
+          "pb": 1
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "pt": 1,
+          "pb": 1
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {}
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Plained"
+    }
+  },
+  "none": {
+    "info": {
+      "bundle": "web",
+      "name": "none"
+    }
+  },
+  "Main Listings": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mt": 2,
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Main Listings"
+    }
+  },
+  "Main Form": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "ml": 2,
+          "mr": 2,
+          "mt": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        },
+        "variant": "Admin Form"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 3,
+          "pb": 1
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "maxWidth": "sm",
+          "margin": "0 auto"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Main Form"
+    }
+  },
+  "Main Form With Header": {
+    "blockProps": {
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2,
+          "mt": 2,
+          "ml": 2,
+          "mr": 2
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "height": "56px"
+        }
+      },
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "h3",
+          "color": "text.primary"
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Main Form With Header"
+    }
+  },
+  "Main Form SideBar": {
+    "noHeader": true,
+    "noFooter": true,
+    "blockProps": {
+      "contentStyle": {
+        "sx": {
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Main Form SideBar"
+    }
+  },
+  "main breadcrumb": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pb": 1,
+          "pt": 0
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "pt": 0,
+          "mt": 2,
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": 0,
+    "info": {
+      "bundle": "web",
+      "name": "main breadcrumb"
+    }
+  },
+  "main breadcrumb mobile": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pb": 1,
+          "pt": 0
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "pt": 0,
+          "mt": 2,
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "px": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "info": {
+      "bundle": "web",
+      "name": "main breadcrumb mobile"
+    }
+  },
+  "Login Languages": {
+    "blockProps": {
+      "titleStyle": {},
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 0,
+          "mb": -2
+        }
+      },
+      "headerStyle": {},
+      "footerStyle": {},
+      "blockStyle": {}
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Login Languages"
+    }
+  },
+  "Large Main Lists": {
+    "freeze": false,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "overflow": "hidden"
+        },
+        "variant": "Blocker"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mt": 2,
+          "mb": 0
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Large Main Lists"
+    }
+  },
+  "Large Main Lists Mobile": {
+    "freeze": false,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "",
+          "borderRadius": 1,
+          "overflow": "hidden"
+        },
+        "variant": "Blocker"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pl": 0,
+          "pr": 0
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "pl": 2,
+          "pr": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Large Main Lists Mobile"
+    }
+  },
+  "Large Main Lists Mobile - Paper": {
+    "freeze": false,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "overflow": "hidden"
+        },
+        "variant": "Blocker"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pl": 0,
+          "pr": 0
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "pl": 2,
+          "pr": 2,
+          "pb": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Large Main Lists Mobile - Paper"
+    }
+  },
+  "Full Screen Form": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "ml": 2,
+          "mr": 2,
+          "mt": 2,
+          "mb": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        },
+        "variant": "Admin Form"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 3,
+          "pb": 1
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "maxWidth": "md",
+          "margin": "0 auto"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Full Screen Form"
+    }
+  },
+  "form breadcrumb": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pb": 1,
+          "pt": 0
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "pt": 0,
+          "mt": 2,
+          "ml": 2,
+          "mr": 2,
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": 0,
+    "info": {
+      "bundle": "web",
+      "name": "form breadcrumb"
+    }
+  },
+  "footer": {
+    "noHeader": true,
+    "noFooter": true,
+    "blockProps": {
+      "blockStyle": {
+        "sx": {
+          "mt": 2,
+          "mb": 3,
+          "pr": 0,
+          "pl": 0,
+          "pt": 0
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "footer"
+    }
+  },
+  "footer - login": {
+    "noHeader": true,
+    "noFooter": true,
+    "blockProps": {
+      "blockStyle": {
+        "sx": {
+          "mt": 0,
+          "mb": 4.75,
+          "pr": 0,
+          "pl": 0,
+          "pt": 0
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "footer - login"
+    }
+  },
+  "Feed Detail": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mt": 2,
+          "mb": 2,
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Feed Detail"
+    }
+  },
+  "Edit Info List": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "p": 2,
+          "borderRadius": 1
+        },
+        "variant": "Admin Form"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pb": 2,
+          "pt": 3
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "maxWidth": "sm",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "borderRadius": 1
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "freeze": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Edit Info List"
+    }
+  },
+  "Detail - Transparent": {
+    "blockProps": {
+      "blockStyle": {
+        "pl": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "mb": 2,
+        "sx": {
+          "borderBottomLeftRadius": 1,
+          "borderBottomRightRadius": 1
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Detail - Transparent"
+    }
+  },
+  "Detail Post Listing": {
+    "freeze": false,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "overflow": "hidden"
+        },
+        "variant": "Blocker"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Detail Post Listing"
+    }
+  },
+  "Detail - Paper - Radius Bottom": {
+    "blockProps": {
+      "blockStyle": {
+        "bgcolor": "background.paper",
+        "pl": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "mb": 2,
+        "sx": {
+          "borderBottomLeftRadius": "8px",
+          "borderBottomRightRadius": "8px"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Detail - Paper - Radius Bottom"
+    }
+  },
+  "Contained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "h1"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 0,
+          "pb": 2
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 1,
+          "pb": 1
+        },
+        "dividerVariant": "0"
+      },
+      "footerStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 1,
+          "pb": 1
+        },
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Contained"
+    }
+  },
+  "Collection List Side Block": {
+    "blockProps": {
+      "titleStyle": {
+        "sx": {
+          "typography": "h4",
+          "color": "text.secondary"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pt": 0,
+          "pr": 1,
+          "pl": 1,
+          "pb": 0
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "mb": 1,
+          "pr": 2,
+          "pl": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "pr": 0,
+          "pl": 0,
+          "mt": 2.875
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Collection List Side Block"
+    }
+  },
+  "Clean - Body Only": {
+    "blockProps": {
+      "contentStyle": {},
+      "headerStyle": {},
+      "footerStyle": {}
+    },
+    "noHeader": 1,
+    "noFooter": 1,
+    "info": {
+      "bundle": "web",
+      "name": "Clean - Body Only"
+    }
+  },
+  "Cards": {
+    "emptyPage": "hide",
+    "gridVariant": "gridView",
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "mb": "2"
+        }
+      },
+      "headerStyle": {},
+      "footerStyle": {}
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Cards"
+    }
+  },
+  "Blocker": {
+    "blockProps": {
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 0,
+          "mt": 2
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Blocker"
+    }
+  },
+  "Blocker Simple": {
+    "blockProps": {
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 0,
+          "mt": 0
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Blocker Simple"
+    }
+  },
+  "Blocker - Mobile": {
+    "blockProps": {
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 0
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "mt": 0
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Blocker - Mobile"
+    }
+  },
+  "Blocker Discussions": {
+    "blockProps": {
+      "contentStyle": {
+        "sx": {
+          "pl": 0,
+          "pr": 0,
+          "pt": 0,
+          "pb": 0,
+          "bgcolor": "transparent"
+        }
+      },
+      "headerStyle": {},
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 0,
+          "mt": 0
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Blocker Discussions"
+    }
+  },
+  "Blocker Discussions Search": {
+    "blockProps": {
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        }
+      },
+      "headerStyle": {},
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "mt": 0
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Blocker Discussions Search"
+    }
+  },
+  "Blocker Contacts ChatPlus": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h4"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pb": 1,
+          "pl": 1,
+          "pr": 1
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 0,
+          "pb": 0,
+          "height": "48px"
+        },
+        "dividerVariant": "fullWidth"
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "mt": 2,
+          "mb": 2
+        }
+      }
+    },
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Blocker Contacts ChatPlus"
+    }
+  },
+  "Blocked Setting Mobile": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "ml": 1,
+          "mr": 1
+        },
+        "variant": "Admin Form"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 3,
+          "pb": 1
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "maxWidth": "sm",
+          "margin": "0 auto"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "freeze": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Blocked Setting Mobile"
+    }
+  },
+  "Block Map": {
+    "blockProps": {
+      "blockStyle": {
+        "sx": {
+          "mt": 0,
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mb": 0,
+          "pl": 0,
+          "pr": 0,
+          "ml": -2,
+          "mr": -2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Block Map"
+    }
+  },
+  "Block Full Main": {
+    "blockProps": {
+      "blockStyle": {
+        "sx": {
+          "mt": 0,
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mb": 0,
+          "pl": 0,
+          "pr": 0,
+          "ml": 0,
+          "mr": 0
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Block Full Main"
+    }
+  },
+  "Block Divider": {
+    "blockProps": {
+      "blockStyle": {
+        "sx": {
+          "&:last-child": {
+            "display": "none"
+          }
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Block Divider"
+    }
+  },
+  "App Simple - Tab Contained": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "h4"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "px": 0,
+          "py": 0,
+          "mt": 0.5
+        }
+      },
+      "headerStyle": {},
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "pt": 0,
+          "mt": 0
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "App Simple - Tab Contained"
+    }
+  },
+  "App List": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mt": 2,
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "App List"
+    }
+  },
+  "App List - Table - Mobile": {
+    "freeze": false,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 0,
+          "pl": 2,
+          "pr": 2,
+          "pb": 2,
+          "pt": 1
+        },
+        "variant": "Blocker"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "App List - Table - Mobile"
+    }
+  },
+  "App List Tab": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "h3"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "App List Tab"
+    }
+  },
+  "App List - Tab Content - No Title": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mt": 0,
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": 1,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "App List - Tab Content - No Title"
+    }
+  },
+  "App List - Sub Tab": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "p": 0
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 1
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mt": 2,
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "App List - Sub Tab"
+    }
+  },
+  "App List - Sub Tab - Mobile": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pr": 2,
+          "pl": 2,
+          "pt": 0,
+          "pb": 2
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 0,
+          "pb": 0,
+          "pl": 2,
+          "pr": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mt": 2,
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "App List - Sub Tab - Mobile"
+    }
+  },
+  "App List Reviews Posts": {
+    "emptyPage": "hide",
+    "gridVariant": "gridView",
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 3,
+          "pb": 3,
+          "pr": 2,
+          "pl": 2,
+          "maxWidth": "sm",
+          "width": "100%"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "maxWidth": "sm",
+          "width": "100%",
+          "pr": 2,
+          "pl": 2
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "pl": 0,
+          "pr": 0,
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "display": "flex",
+          "maxWidth": "sm",
+          "margin": "0 auto",
+          "mb": 2,
+          "flexDirection": "column"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "App List Reviews Posts"
+    }
+  },
+  "App List - Record Table": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mt": 0,
+          "mb": 0
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "App List - Record Table"
+    }
+  },
+  "App List - Record Table - No Title": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mt": 0,
+          "mb": 0
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "App List - Record Table - No Title"
+    }
+  },
+  "App List Pending Posts": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h3",
+          "mt": 2
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2,
+          "maxWidth": "sm",
+          "width": "100%"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "maxWidth": "sm",
+          "width": "100%"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mt": 2,
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mb": 2,
+          "pl": 0,
+          "pr": 0,
+          "display": "flex",
+          "maxWidth": "sm",
+          "margin": "0 auto",
+          "flexDirection": "column"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "App List Pending Posts"
+    }
+  },
+  "App List - Mobile": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "minHeight": "50px",
+          "pl": 2,
+          "pr": 2,
+          "pt": 1,
+          "pb": 1
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "pr": 2,
+          "pl": 2,
+          "pt": 0,
+          "pb": 0
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "m": 0,
+          "p": 0
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "pr": 0,
+          "pl": 0
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "App List - Mobile"
+    }
+  },
+  "App List - Mobile - Paper": {
+    "blockProps": {
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "",
+          "borderRadius": "",
+          "pr": 0,
+          "pl": 0
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pr": 2,
+          "pl": 2,
+          "pt": 2,
+          "pb": 2
+        }
+      },
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "height": "50px",
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "App List - Mobile - Paper"
+    }
+  },
+  "Admin Table": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "ml": 2,
+          "mr": 2,
+          "mt": 1,
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 3,
+          "pb": 1
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": false,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Admin Table"
+    }
+  },
+  "Admin Form": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "ml": 2,
+          "mr": 2,
+          "mt": 1,
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        },
+        "variant": "Admin Form"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 3,
+          "pb": 1
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Admin Form"
+    }
+  },
+  "Account Setting": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 2,
+          "pb": 2,
+          "ml": 2,
+          "mr": 2,
+          "mt": 2,
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        },
+        "variant": "Admin Form"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 3,
+          "pb": 1
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "maxWidth": "sm",
+          "margin": "0 auto"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "freeze": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Account Setting"
+    }
+  },
+  "Account Setting Listing": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pb": 2
+        },
+        "variant": "Admin Form"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pl": 2,
+          "pr": 2,
+          "pt": 3,
+          "pb": 1
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mb": 2,
+          "maxWidth": "sm",
+          "margin": "0 auto"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "freeze": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Account Setting Listing"
+    }
+  },
+  "Sort Activity Feed": {
+    "blockProps": {
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "mt": 2,
+          "mb": 2,
+          "display": "flex",
+          "justifyContent": "flex-end"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Sort Activity Feed"
+    }
+  },
+  "Home Feed Main Listings": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "mt": 2,
+          "mb": 2,
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Home Feed Main Listings"
+    }
+  },
+  "Photo Page View": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "subtitle1"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "mt": 0,
+          "mb": 0,
+          "bgcolor": "background.paper",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Photo Page View"
+    }
+  },
+  "Friend Search Lists": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {
+          "typography": "subtitle1",
+          "b": {
+            "fontWeight": "normal"
+          }
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mt": 2,
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Friend Search Lists"
+    }
+  },
+  "Friend Lists": {
+    "emptyPage": "core.block.no_content",
+    "emptyPageProps": {
+      "noHeader": true,
+      "title": "no_requests",
+      "contentStyle": {
+        "sx": {
+          "position": "relative",
+          "fontWeight": "700",
+          "fontSize": 18,
+          "padding": "16px"
+        }
+      }
+    },
+    "gridVariant": "listView",
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "textPrimary"
+        }
+      },
+      "contentStyle": {
+        "variant": "contained"
+      },
+      "headerStyle": {},
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {}
+    },
+    "noHeader": true,
+    "noFooter": false,
+    "info": {
+      "bundle": "web",
+      "name": "Friend Lists"
+    }
+  },
+  "Friend List Side Block": {
+    "blockProps": {
+      "titleStyle": {
+        "sx": {
+          "typography": "h4",
+          "color": "text.primary"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "pt": 0,
+          "pr": 1,
+          "pl": 1
+        }
+      },
+      "headerStyle": {
+        "sx": {
+          "mb": 1,
+          "pr": 2,
+          "pl": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "pr": 0,
+          "pl": 0,
+          "mt": 2.875
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Friend List Side Block"
+    }
+  },
+  "Friend Cards": {
+    "emptyPage": "core.block.no_content",
+    "emptyPageProps": {
+      "variant": "default",
+      "title": "No Friends"
+    },
+    "gridVariant": "gridView",
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h5",
+          "color": "textPrimary"
+        }
+      },
+      "contentStyle": {
+        "variant": "plained"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pb": 2
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "mt": 3,
+          "mb": 3
+        }
+      }
+    },
+    "noHeader": false,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Friend Cards"
+    }
+  },
+  "Friend Birthday": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "h3",
+          "mt": 2
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2,
+          "maxWidth": "sm",
+          "width": "100%"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "maxWidth": "sm",
+          "width": "100%"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 2
+        }
+      },
+      "blockStyle": {
+        "sx": {
+          "mt": 0,
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mb": 2,
+          "pl": 0,
+          "pr": 0,
+          "display": "flex",
+          "maxWidth": "sm",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "flexDirection": "column"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Friend Birthday"
+    }
+  },
+  "Sort - Main Listings": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h1",
+        "sx": {}
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 0,
+          "pb": 0.5,
+          "justifyContent": "flex-end"
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "mt": 0
+        }
+      },
+      "blockStyle": {
+        "blockShadow": 0,
+        "sx": {
+          "mt": 0,
+          "mb": 0,
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": true,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Sort - Main Listings"
+    }
+  },
+  "Manage Scheudle Posts": {
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "secondary",
+          "color": "text"
+        }
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 3,
+          "pb": 3,
+          "pr": 2,
+          "pl": 2,
+          "maxWidth": "sm",
+          "width": "100%"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "maxWidth": "sm",
+          "width": "100%",
+          "pr": 2,
+          "pl": 2
+        }
+      },
+      "footerStyle": {},
+      "blockStyle": {
+        "sx": {
+          "pl": 0,
+          "pr": 0,
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "display": "flex",
+          "maxWidth": "sm",
+          "margin": "0 auto",
+          "mb": 2,
+          "flexDirection": "column"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": 0,
+    "info": {
+      "bundle": "web",
+      "name": "Manage Scheudle Posts"
+    }
+  },
+  "Activity Points Mobile": {
+    "freeze": false,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "overflow": "hidden"
+        },
+        "variant": "Blocker"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0"
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Activity Points Mobile"
+    }
+  },
+  "Ewallet payment setting": {
+    "freeze": false,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "overflow": "hidden",
+          "p": 2
+        },
+        "variant": "Blocker"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mt": {
+            "xs": 0,
+            "md": 2
+          },
+          "ml": {
+            "xs": 2,
+            "md": 0
+          },
+          "mr": {
+            "xs": 2,
+            "md": 0
+          },
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Ewallet payment setting"
+    }
+  },
+  "Ewallet Main Block": {
+    "freeze": false,
+    "blockProps": {
+      "titleStyle": {
+        "component": "h2",
+        "sx": {
+          "typography": "subtitle1",
+          "color": "text"
+        }
+      },
+      "contentStyle": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "overflow": "hidden"
+        },
+        "variant": "Blocker"
+      },
+      "headerStyle": {
+        "dividerVariant": "0",
+        "sx": {
+          "pt": 1,
+          "pb": 2
+        }
+      },
+      "footerStyle": {
+        "dividerVariant": "0"
+      },
+      "blockStyle": {
+        "sx": {
+          "bgcolor": "0",
+          "borderRadius": "0",
+          "mt": 2,
+          "mb": 2
+        }
+      }
+    },
+    "noHeader": 0,
+    "noFooter": true,
+    "info": {
+      "bundle": "web",
+      "name": "Ewallet Main Block"
+    }
+  }
+}

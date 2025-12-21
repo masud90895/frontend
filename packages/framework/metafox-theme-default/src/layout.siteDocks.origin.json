@@ -1,0 +1,7 @@
+{
+  "ToastContainer": true,
+  "core.popoverContainer": true,
+  "AlertReminder": true,
+  "PWA": true,
+  "NotificationWebPush": true
+}

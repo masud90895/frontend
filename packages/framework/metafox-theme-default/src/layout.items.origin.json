@@ -1,0 +1,1864 @@
+{
+  "Shortcut - Small Lists": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": "",
+          "pt": 1,
+          "pr": 2,
+          "pb": 1,
+          "pl": 2
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1
+      },
+      "summary": {
+        "component": "span",
+        "variant": "body1",
+        "lines": 0,
+        "sx": {
+          "mt": 0.5,
+          "color": "textSecondary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      },
+      "showActionMenu": 1,
+      "text": {
+        "sx": {
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Shortcut - Small Lists"
+    }
+  },
+  "Shortcut - Menu Items": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": 1,
+          "borderTopWidth": 0,
+          "borderRightWidth": 0,
+          "borderBottomWidth": 0,
+          "borderLeftWidth": 0,
+          "mt": 0,
+          "mr": 1,
+          "ml": 1,
+          "pt": 1.5,
+          "pb": 1.5,
+          "pl": 1.5,
+          "pr": 1.5
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1,
+        "fixHeight": 1
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "color": "textSecondary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      },
+      "text": {
+        "sx": {
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Shortcut - Menu Items"
+    }
+  },
+  "Record Item - Table": {
+    "itemProps": {
+      "showActionMenu": 1,
+      "variant": "containedCard",
+      "content": {
+        "sx": {
+          "width": "100%",
+          "bgcolor": "background.default",
+          "color": "text.secondary",
+          "borderRadius": 1,
+          "fontSize": 15,
+          "display": "flex",
+          "alignItems": "center",
+          "p": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Record Item - Table"
+    }
+  },
+  "Record Item - Table - Paper": {
+    "itemProps": {
+      "showActionMenu": 1,
+      "variant": "containedCard",
+      "content": {
+        "sx": {
+          "width": "100%",
+          "color": "text.secondary",
+          "fontSize": 15,
+          "display": "flex",
+          "alignItems": "center"
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Record Item - Table - Paper"
+    }
+  },
+  "Profile Friends Small Lists": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": "",
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2,
+          "ml": 0,
+          "borderTop": "1px solid",
+          "borderColor": "border.secondary"
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 0,
+        "sx": {
+          "mt": 0.5,
+          "color": "textHint"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      },
+      "text": {
+        "sx": {
+          "ml": 1.5
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Profile Friends Small Lists"
+    }
+  },
+  "Notification - Small Lists": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "divider",
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "0",
+          "borderRadius": "",
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2
+        }
+      },
+      "title": {
+        "variant": "h3",
+        "lines": 0,
+        "fixHeight": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body1",
+        "lines": 2,
+        "sx": {
+          "mb": 0.5,
+          "color": "textSecondary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      },
+      "text": {
+        "sx": {
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Notification - Small Lists"
+    }
+  },
+  "Hashtag - Trending": {
+    "itemProps": {
+      "variant": "flattedCard",
+      "content": {
+        "dividerVariant": "bottom",
+        "hoverVariant": "background",
+        "sx": {
+          "alignItems": "center",
+          "pt": 3,
+          "pb": 3,
+          "pr": 2,
+          "pl": 2
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mb": 0.5
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Hashtag - Trending"
+    }
+  },
+  "Feeds - Mobile": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "sx": {
+          "pt": 2,
+          "pl": 2,
+          "pb": 0,
+          "pr": 2,
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 0
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": ""
+      },
+      "media": {
+        "width": "auto",
+        "aspectRatio": "11",
+        "placement": ""
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "text": {
+        "sx": {
+          "pt": 0
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Feeds - Mobile"
+    }
+  },
+  "Feed - Main Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "sx": {
+          "pt": 2,
+          "pl": 2,
+          "pb": 0,
+          "pr": 2,
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "borderStyle": "solid",
+          "borderWidth": "thin",
+          "borderColor": "border.outlined"
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": ""
+      },
+      "media": {
+        "width": "auto",
+        "aspectRatio": "11",
+        "placement": ""
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "text": {
+        "sx": {
+          "pt": 0
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Feed - Main Card"
+    }
+  },
+  "User - PendingPost - Main Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "summary": {
+        "sx": {
+          "mb": 2
+        }
+      },
+      "content": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "borderTopWidth": 1,
+          "borderRightWidth": 1,
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid",
+          "pt": 0,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "User - PendingPost - Main Card"
+    }
+  },
+  "User - Manage Hidden": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "0",
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": 1,
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2,
+          "ml": 0
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1,
+        "sx": {
+          "mt": 0.5
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 0,
+        "sx": {
+          "mt": 0.5,
+          "color": "textHint"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto",
+        "sx": {
+          "position": "relative"
+        }
+      },
+      "text": {
+        "sx": {
+          "ml": 1.5
+        }
+      }
+    },
+    "info": {
+      "name": "User - Manage Hidden"
+    }
+  },
+  "User - Main Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "sx": {
+          "pt": 2,
+          "pl": 2,
+          "pb": 2,
+          "pr": 2,
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": ""
+      },
+      "media": {
+        "width": "auto",
+        "aspectRatio": "11",
+        "placement": "start"
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mb": 1
+        }
+      },
+      "summary": {
+        "component": "span",
+        "variant": "body2",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "color": "text.secondary"
+        }
+      },
+      "text": {
+        "sx": {
+          "ml": 2,
+          "mr": 2
+        }
+      },
+      "showActionMenu": 1
+    },
+    "info": {
+      "bundle": "web",
+      "name": "User - Main Card"
+    }
+  },
+  "User - List": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "bottom",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": "",
+          "pt": 2,
+          "pb": 2,
+          "ml": 0
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1,
+        "sx": {
+          "mt": 0.5
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 0,
+        "sx": {
+          "mt": 0.5,
+          "color": "textHint"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      },
+      "text": {
+        "sx": {
+          "ml": 1.5
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "User - List"
+    }
+  },
+  "Page User - Main Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "showActionMenu": 1,
+      "content": {
+        "sx": {
+          "pt": 2,
+          "pl": 2,
+          "pb": 2,
+          "pr": 2,
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "borderWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid"
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": ""
+      },
+      "media": {
+        "width": "auto",
+        "aspectRatio": "11",
+        "placement": "start"
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mb": 1
+        }
+      },
+      "text": {
+        "sx": {
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Page User - Main Card"
+    }
+  },
+  "Poll User - Main Card": {
+    "itemProps": {
+      "variant": "flattedCard",
+      "showActionMenu": 1,
+      "media": {
+        "width": 160,
+        "aspectRatio": "11",
+        "placement": "start"
+      },
+      "title": {
+        "lines": 2,
+        "variant": "h4",
+        "sx": {
+          "margin": {
+            "mt": 2,
+            "mb": 1,
+            "mr": 3
+          },
+          "mb": 1,
+          "mr": 2.875
+        }
+      },
+      "content": {
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "borderWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid"
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "minHeight": "160"
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "text": {
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Poll User - Main Card"
+    }
+  },
+  "Poll - Profile - Main Card": {
+    "itemProps": {
+      "variant": "flattedCard",
+      "content": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "height": "100%",
+          "borderTopWidth": 1,
+          "borderRightWidth": 1,
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid"
+        }
+      },
+      "media": {
+        "placement": "top",
+        "aspectRatio": "169",
+        "width": "100%",
+        "sx": {
+          "mb": 0
+        }
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 2,
+        "sx": {
+          "mb": 1
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "color": "textHint",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mt": 1
+        }
+      },
+      "showActionMenu": 1,
+      "text": {
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pr": 2,
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Poll - Profile - Main Card"
+    }
+  },
+  "Poll - People Who Voted": {
+    "itemProps": {
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto",
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pr": 2,
+          "pl": 2
+        }
+      },
+      "content": {
+        "sx": {
+          "justifyContent": "",
+          "alignItems": "center"
+        },
+        "hoverVariant": "background",
+        "dividerVariant": "bottom"
+      },
+      "title": {
+        "variant": "h6",
+        "lines": 1,
+        "fixHeight": 0
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Poll - People Who Voted"
+    }
+  },
+  "Poll - Main Card": {
+    "itemProps": {
+      "variant": "flattedCard",
+      "showActionMenu": 1,
+      "media": {
+        "width": 160,
+        "aspectRatio": "11",
+        "placement": "start"
+      },
+      "title": {
+        "lines": 2,
+        "variant": "h4",
+        "sx": {
+          "mb": 1,
+          "mr": 2.875
+        }
+      },
+      "content": {
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "minHeight": "160"
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "text": {
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Poll - Main Card"
+    }
+  },
+  "Poll - Main Card - Mobile": {
+    "itemProps": {
+      "variant": "flattedCard",
+      "content": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "height": "100%"
+        }
+      },
+      "media": {
+        "placement": "top",
+        "aspectRatio": "169",
+        "width": "100%",
+        "sx": {
+          "mb": 0
+        }
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 2,
+        "sx": {
+          "mb": 1
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "color": "textHint",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mt": 1
+        }
+      },
+      "showActionMenu": 1,
+      "text": {
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pr": 2,
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Poll - Main Card - Mobile"
+    }
+  },
+  "Photo_album User - Main Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pt": 0,
+          "pr": 0,
+          "pb": 2,
+          "pl": 0,
+          "borderWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid"
+        }
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 2,
+        "sx": {
+          "mt": 1.5,
+          "mb": 1.5
+        },
+        "fixHeight": 0
+      },
+      "summary": {
+        "component": "span",
+        "variant": "body2",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mb": 1,
+          "color": "text.secondary"
+        }
+      },
+      "media": {
+        "placement": "top",
+        "aspectRatio": "169",
+        "width": "100%"
+      },
+      "text": {
+        "sx": {
+          "pr": 2,
+          "pl": 2
+        }
+      },
+      "showActionMenu": 1
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Photo_album User - Main Card"
+    }
+  },
+  "Photo_album - Main Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pt": 0,
+          "pr": 0,
+          "pb": 2,
+          "pl": 0
+        }
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 2,
+        "sx": {
+          "mt": 1.5,
+          "mb": 1.5
+        },
+        "fixHeight": 0
+      },
+      "summary": {
+        "component": "span",
+        "variant": "body2",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mb": 1,
+          "color": "text.secondary"
+        }
+      },
+      "media": {
+        "placement": "top",
+        "aspectRatio": "169",
+        "width": "100%"
+      },
+      "text": {
+        "sx": {
+          "pr": 2,
+          "pl": 2
+        }
+      },
+      "showActionMenu": 1
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Photo_album - Main Card"
+    }
+  },
+  "Photo - Profile - Small Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": ""
+        }
+      },
+      "title": {
+        "variant": "h3",
+        "lines": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "169",
+        "width": "100%"
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Photo - Profile - Small Card"
+    }
+  },
+  "Photo - Profile - Main Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": ""
+        }
+      },
+      "title": {
+        "variant": "h3",
+        "lines": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "169",
+        "width": "100%"
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Photo - Profile - Main Card"
+    }
+  },
+  "Photo - Main Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": 1
+        }
+      },
+      "title": {
+        "variant": "h3",
+        "lines": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "169",
+        "width": "100%"
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Photo - Main Card"
+    }
+  },
+  "Photo - Main Card - Listings": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        }
+      },
+      "title": {
+        "variant": "h3",
+        "lines": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "media": {
+        "placement": "top",
+        "aspectRatio": "169",
+        "width": "100%"
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Photo - Main Card - Listings"
+    }
+  },
+  "Global - Search Item Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "sx": {
+          "borderRadius": 1,
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2,
+          "bgcolor": "background.paper"
+        }
+      },
+      "showActionMenu": 1,
+      "title": {
+        "variant": "h4",
+        "lines": 1,
+        "fixHeight": 1
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto",
+        "sx": {
+          "mr": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Global - Search Item Card"
+    }
+  },
+  "Friend User - Cards": {
+    "itemProps": {
+      "variant": "contained",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2,
+          "borderWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid"
+        }
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 1,
+        "sx": {
+          "mb": 1
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body1",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mr": 0,
+          "color": "textSecondary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      },
+      "showActionMenu": 1,
+      "text": {
+        "sx": {
+          "pl": 2,
+          "pr": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Friend User - Cards"
+    }
+  },
+  "Friend - Small List": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "bottom",
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": "",
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2,
+          "ml": 0
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1,
+        "sx": {
+          "mt": 0.5
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 0,
+        "sx": {
+          "mt": 0.5,
+          "color": "textHint"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto",
+        "sx": {
+          "position": "relative"
+        }
+      },
+      "text": {
+        "sx": {
+          "ml": 1.5
+        }
+      }
+    },
+    "info": {
+      "name": "Friend - Small List"
+    }
+  },
+  "Friend - Small List - Paper": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "bottom",
+        "hoverVariant": "background",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": "",
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2,
+          "ml": 0
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1,
+        "sx": {
+          "mt": 0.5
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "lines": 0,
+        "sx": {
+          "mt": 0.5,
+          "color": "textHint"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      },
+      "text": {
+        "sx": {
+          "ml": 1.5
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Small List - Paper"
+    }
+  },
+  "Friend - Small Cards": {
+    "itemProps": {
+      "variant": "contained",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 0,
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2
+        }
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 2,
+        "sx": {
+          "mb": 1
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body1",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mr": 0,
+          "color": "textSecondary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "56"
+      },
+      "showActionMenu": 1,
+      "text": {
+        "sx": {
+          "pl": 2,
+          "pr": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Small Cards"
+    }
+  },
+  "Friend - Request Lists": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "borderColor": "border.secondary",
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1
+        }
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      },
+      "showActionMenu": 0,
+      "text": {
+        "sx": {
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Request Lists"
+    }
+  },
+  "Friend - Pending Lists": {
+    "itemProps": {
+      "variant": "flatted",
+      "content": {
+        "sx": {
+          "pt": 2,
+          "pl": 2,
+          "pb": 2,
+          "pr": 2,
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": ""
+        },
+        "selectedVariant": "background",
+        "dividerVariant": "",
+        "hoverVariant": "background"
+      },
+      "media": {
+        "width": "auto",
+        "aspectRatio": "11",
+        "placement": "start"
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "text": {
+        "sx": {
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Pending Lists"
+    }
+  },
+  "Friend - Pending Lists Mobile": {
+    "itemProps": {
+      "variant": "flatted",
+      "content": {
+        "sx": {
+          "pt": 0,
+          "pl": 0,
+          "pb": 0,
+          "pr": 0,
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": ""
+        },
+        "selectedVariant": "background",
+        "dividerVariant": "",
+        "hoverVariant": "background"
+      },
+      "media": {
+        "width": "auto",
+        "aspectRatio": "11",
+        "placement": "start"
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 0
+      },
+      "summary": {
+        "component": "div",
+        "variant": "h3",
+        "lines": 0,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "text": {
+        "sx": {
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Pending Lists Mobile"
+    }
+  },
+  "Friend List - Small List": {
+    "itemProps": {
+      "media": {
+        "placement": "start",
+        "width": "auto",
+        "aspectRatio": "11",
+        "sx": {
+          "pt": 0.5
+        }
+      },
+      "content": {
+        "hoverVariant": "background",
+        "sx": {
+          "borderRadius": 1,
+          "pt": 1,
+          "pr": 1,
+          "pb": 1,
+          "pl": 1
+        }
+      },
+      "title": {
+        "variant": "h5",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mb": 0.5
+        }
+      },
+      "text": {
+        "sx": {
+          "pl": 2
+        }
+      },
+      "showActionMenu": 1
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Friend List - Small List"
+    }
+  },
+  "Friend - Cards": {
+    "itemProps": {
+      "variant": "contained",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2
+        }
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 1,
+        "sx": {
+          "mb": 1
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body1",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "mr": 0,
+          "color": "textSecondary"
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "80"
+      },
+      "showActionMenu": 1,
+      "text": {
+        "sx": {
+          "pl": 2,
+          "pr": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Cards"
+    }
+  },
+  "Friend - Cards - Mobile": {
+    "itemProps": {
+      "variant": "contained",
+      "content": {
+        "sx": {
+          "alignItems": "center",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderTopWidth": 1,
+          "borderRightWidth": 1,
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid",
+          "borderRadius": 1,
+          "pt": 2,
+          "pr": 2,
+          "pb": 2,
+          "pl": 2
+        }
+      },
+      "showActionMenu": 0,
+      "title": {
+        "variant": "h4",
+        "lines": 0,
+        "sx": {
+          "mb": 1
+        }
+      },
+      "text": {
+        "sx": {
+          "pr": 2,
+          "pl": 2
+        }
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body1",
+        "color": "textSecondary",
+        "lines": 1,
+        "sx": {
+          "mb": 2
+        }
+      },
+      "media": {
+        "placement": "start",
+        "aspectRatio": "11",
+        "width": "auto"
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Cards - Mobile"
+    }
+  },
+  "Blog User - Main Card": {
+    "itemProps": {
+      "showActionMenu": 1,
+      "variant": "flattedCard",
+      "media": {
+        "width": 160,
+        "aspectRatio": "11",
+        "placement": "start"
+      },
+      "title": {
+        "lines": 2,
+        "variant": "h4"
+      },
+      "content": {
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "borderWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid"
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "minHeight": "160"
+      },
+      "summary": {
+        "lines": 1
+      },
+      "text": {
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Blog User - Main Card"
+    }
+  },
+  "Blog - Profile - Main Card": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "",
+          "borderRadius": 1,
+          "borderTopWidth": 1,
+          "borderRightWidth": 1,
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid"
+        }
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 2,
+        "fixHeight": 1
+      },
+      "summary": {
+        "component": "div",
+        "variant": "span",
+        "lines": 1,
+        "sx": {
+          "color": "text.primary"
+        }
+      },
+      "media": {
+        "placement": "top",
+        "aspectRatio": "169",
+        "width": "auto"
+      },
+      "showActionMenu": 1,
+      "text": {
+        "sx": {
+          "pt": 2,
+          "pl": 2,
+          "pb": 2,
+          "pr": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Blog - Profile - Main Card"
+    }
+  },
+  "Blog - Main Card": {
+    "itemProps": {
+      "showActionMenu": 1,
+      "variant": "flattedCard",
+      "media": {
+        "width": 160,
+        "aspectRatio": "11",
+        "placement": "start"
+      },
+      "title": {
+        "lines": 2,
+        "variant": "h4"
+      },
+      "content": {
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1
+        },
+        "selectedVariant": "",
+        "dividerVariant": "",
+        "hoverVariant": ""
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "color": "text.secondary",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "my": 1
+        }
+      },
+      "text": {
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pl": 2,
+          "pr": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Blog - Main Card"
+    }
+  },
+  "Blog - Main Card - Mobile": {
+    "itemProps": {
+      "variant": "flattedCard",
+      "content": {
+        "sx": {
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "height": "100%"
+        }
+      },
+      "media": {
+        "placement": "top",
+        "aspectRatio": "169",
+        "width": "100%"
+      },
+      "title": {
+        "variant": "h4",
+        "lines": 2
+      },
+      "summary": {
+        "component": "div",
+        "variant": "body2",
+        "color": "text.secondary",
+        "lines": 1,
+        "fixHeight": 1,
+        "sx": {
+          "my": 1
+        }
+      },
+      "showActionMenu": 1,
+      "text": {
+        "sx": {
+          "pt": 2,
+          "pb": 2,
+          "pr": 2,
+          "pl": 2
+        }
+      }
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Blog - Main Card - Mobile"
+    }
+  },
+  "ActivityPoint - Packages": {
+    "itemProps": {
+      "variant": "containedCard",
+      "content": {
+        "dividerVariant": "",
+        "hoverVariant": "",
+        "selectedVariant": "",
+        "sx": {
+          "alignItems": "",
+          "justifyContent": "",
+          "bgcolor": "background.paper",
+          "borderRadius": 1,
+          "borderTopWidth": 1,
+          "borderRightWidth": 1,
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderColor": "border.secondary",
+          "borderStyle": "solid",
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "height": "100%"
+        }
+      },
+      "showActionMenu": 1
+    },
+    "info": {
+      "bundle": "web",
+      "name": "ActivityPoint - Packages"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Notification - Small Lists": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "admincp",
+      "name": "Notification - Small Lists"
+    }
+  },
+  "App Store Product - Main Cards": {
+    "gridContainerProps": {
+      "rowSpacing": 2,
+      "columnSpacing": 2
+    },
+    "gridItemProps": {
+      "xl": 4,
+      "llg": 4,
+      "lg": 6,
+      "md": 6,
+      "sm": 12,
+      "xs": 12
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "admincp",
+      "name": "App Store Product - Main Cards"
+    }
+  },
+  "User - Manage Hidden": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 1
+    },
+    "gridVariant": "listView",
+    "info": {
+      "name": "User - Manage Hidden"
+    }
+  },
+  "Friend - Small List": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridVariant": "listView",
+    "info": {
+      "name": "Friend - Small List"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@metafox/web",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "analyze": "analyzer=1 metafox start-dev-server",
+    "test": "metafox jest-unittest"
+  },
+  "peerDependencies": {}
+}

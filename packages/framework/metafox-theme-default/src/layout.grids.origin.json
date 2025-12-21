@@ -1,0 +1,504 @@
+{
+  "Shortcut - Small Lists": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Shortcut - Small Lists"
+    }
+  },
+  "Shortcut - Menu Items": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Shortcut - Menu Items"
+    }
+  },
+  "Record Item - Table": {
+    "gridContainerProps": {
+      "columnSpacing": 2,
+      "rowSpacing": 1
+    },
+    "gridItemProps": {
+      "sm": 12,
+      "md": 12,
+      "lg": 12,
+      "xl": 12,
+      "xs": 12
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Record Item - Table"
+    }
+  },
+  "Profile Friends Small Lists": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Profile Friends Small Lists"
+    }
+  },
+  "Notification - Small Lists": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Notification - Small Lists"
+    }
+  },
+  "Hashtag - Trending": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Hashtag - Trending"
+    }
+  },
+  "Feeds - Mobile": {
+    "gridContainerProps": {
+      "rowSpacing": 2,
+      "columnSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Feeds - Mobile"
+    }
+  },
+  "Feed - Main Card": {
+    "gridContainerProps": {
+      "rowSpacing": 2,
+      "columnSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Feed - Main Card"
+    }
+  },
+  "User - PendingPost - Main Card": {
+    "gridContainerProps": {
+      "columnSpacing": 2,
+      "rowSpacing": 2
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "User - PendingPost - Main Card"
+    }
+  },
+  "User - Manage Hidden": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 1
+    },
+    "gridVariant": "listView",
+    "info": {
+      "name": "User - Manage Hidden"
+    }
+  },
+  "User - Main Card": {
+    "gridContainerProps": {
+      "rowSpacing": 2,
+      "columnSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "sm": 6,
+      "md": 6,
+      "lg": 6,
+      "xl": 4,
+      "variant": "containedCard",
+      "divider": "",
+      "hover": ""
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "User - Main Card"
+    }
+  },
+  "Page - Profile - Main Card": {
+    "gridContainerProps": {
+      "rowSpacing": 2,
+      "columnSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "sm": 6,
+      "md": 6,
+      "lg": 6,
+      "xl": 6
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Page - Profile - Main Card"
+    }
+  },
+  "Poll - People Who Voted": {
+    "gridContainerProps": {
+      "rowSpacing": 0,
+      "columnSpacing": 0
+    },
+    "gridItemProps": {
+      "sm": 12,
+      "md": 12,
+      "lg": 12,
+      "xl": 12,
+      "xs": 12
+    },
+    "info": {
+      "bundle": "web",
+      "name": "Poll - People Who Voted"
+    }
+  },
+  "Poll - Main Card": {
+    "gridContainerProps": {
+      "rowSpacing": 2,
+      "columnSpacing": 2
+    },
+    "gridItemProps": {
+      "sm": 6,
+      "md": 6,
+      "lg": 6,
+      "xl": 6,
+      "xs": 12
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Poll - Main Card"
+    }
+  },
+  "Poll - Main Card - Mobile": {
+    "gridContainerProps": {
+      "rowSpacing": 2
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Poll - Main Card - Mobile"
+    }
+  },
+  "Photo_album - Main Card": {
+    "gridContainerProps": {
+      "columnSpacing": 2,
+      "rowSpacing": 2
+    },
+    "gridItemProps": {
+      "xl": 3,
+      "lg": 4,
+      "md": 4,
+      "sm": 6
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Photo_album - Main Card"
+    }
+  },
+  "Photo - Profile - Small Card": {
+    "gridContainerProps": {
+      "columnSpacing": 0.5,
+      "rowSpacing": 0.5
+    },
+    "gridItemProps": {
+      "sm": 6,
+      "md": 4,
+      "lg": 4,
+      "xl": 4,
+      "xs": 12
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Photo - Profile - Small Card"
+    }
+  },
+  "Photo - Profile - Main Card": {
+    "gridContainerProps": {
+      "columnSpacing": 0.5,
+      "rowSpacing": 0.5
+    },
+    "gridItemProps": {
+      "sm": 6,
+      "md": 4,
+      "lg": 4,
+      "xl": 3,
+      "xs": 12
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Photo - Profile - Main Card"
+    }
+  },
+  "Photo - Main Card": {
+    "gridContainerProps": {
+      "columnSpacing": 1,
+      "rowSpacing": 1
+    },
+    "gridItemProps": {
+      "sm": 6,
+      "md": 4,
+      "lg": 4,
+      "xl": 3,
+      "xs": 12
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Photo - Main Card"
+    }
+  },
+  "Global - Search Item Card": {
+    "gridContainerProps": {
+      "columnSpacing": 2,
+      "rowSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "sm": 6,
+      "md": 6,
+      "lg": 6,
+      "xl": 6
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Global - Search Item Card"
+    }
+  },
+  "Friend - Small List": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridVariant": "listView",
+    "info": {
+      "name": "Friend - Small List"
+    }
+  },
+  "Friend - Request Lists": {
+    "gridContainerProps": {
+      "columnSpacing": 2,
+      "rowSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 4,
+      "xl": 4
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Request Lists"
+    }
+  },
+  "Friend - Profile - Cards": {
+    "gridContainerProps": {
+      "columnSpacing": 2,
+      "rowSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "sm": 6,
+      "md": 6,
+      "lg": 6,
+      "xl": 6
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Profile - Cards"
+    }
+  },
+  "Friend - Pending Lists": {
+    "gridContainerProps": {
+      "spacing": 0,
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "variant": "flatted",
+      "divider": "",
+      "hover": "background",
+      "item": true
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Pending Lists"
+    }
+  },
+  "Friend - Pending Lists Mobile": {
+    "gridContainerProps": {
+      "spacing": 0,
+      "columnSpacing": 0,
+      "rowSpacing": 0
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "variant": "flatted",
+      "divider": "",
+      "hover": "background",
+      "item": true
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Pending Lists Mobile"
+    }
+  },
+  "Friend List - Small List": {
+    "gridContainerProps": {
+      "rowSpacing": 0,
+      "columnSpacing": 0
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Friend List - Small List"
+    }
+  },
+  "Friend - Cards": {
+    "gridContainerProps": {
+      "columnSpacing": 2,
+      "rowSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "sm": 6,
+      "md": 6,
+      "lg": 6,
+      "xl": 4
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Cards"
+    }
+  },
+  "Friend - Cards - Mobile": {
+    "gridContainerProps": {
+      "columnSpacing": 2,
+      "rowSpacing": 2
+    },
+    "gridItemProps": {
+      "sm": 6,
+      "md": 6,
+      "lg": 6,
+      "xl": 6,
+      "xs": 12
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Friend - Cards - Mobile"
+    }
+  },
+  "Blog User - Main Card": {
+    "gridContainerProps": {
+      "rowSpacing": 2,
+      "columnSpacing": 2
+    },
+    "gridItemProps": {
+      "sm": 6,
+      "md": 6,
+      "lg": 6,
+      "xl": 6,
+      "xs": 12
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Blog User - Main Card"
+    }
+  },
+  "Blog - Profile - Main Card": {
+    "gridContainerProps": {
+      "columnSpacing": 2,
+      "rowSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "sm": 6,
+      "md": 4,
+      "lg": 4,
+      "xl": 4
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Blog - Profile - Main Card"
+    }
+  },
+  "Blog - Main Card": {
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "Blog - Main Card"
+    }
+  },
+  "Blog - Main Card - Mobile": {
+    "gridContainerProps": {
+      "columnSpacing": 0,
+      "rowSpacing": 2
+    },
+    "gridItemProps": {
+      "xs": 12,
+      "sm": 12,
+      "md": 12
+    },
+    "gridVariant": "listView",
+    "info": {
+      "bundle": "web",
+      "name": "Blog - Main Card - Mobile"
+    }
+  },
+  "ActivityPoint - Packages": {
+    "gridContainerProps": {
+      "spacing": 2
+    },
+    "gridItemProps": {
+      "sm": 4,
+      "md": 4,
+      "lg": 4,
+      "xl": 4,
+      "xs": 12
+    },
+    "gridVariant": "gridView",
+    "info": {
+      "bundle": "web",
+      "name": "ActivityPoint - Packages"
+    }
+  }
+}

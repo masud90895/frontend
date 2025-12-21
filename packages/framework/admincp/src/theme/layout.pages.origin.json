@@ -1,0 +1,2597 @@
+{
+  "user.admincp.permission.manage": {
+    "info": {
+      "title": "Admin/Members/Permission",
+      "bundle": "admincp",
+      "name": "user.admincp.permission.manage"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "al519",
+          "key": "al519",
+          "component": "user.block.AdminForm",
+          "slotName": "main",
+          "pageName": "user.admincp.permission.manage",
+          "pageSize": "large",
+          "title": "Admin Form",
+          "isRemote": true,
+          "formName": "search",
+          "appName": "authorization",
+          "resourceName": "user_permission",
+          "blockLayout": "Admin Form",
+          "actionName": "searchForm",
+          "minHeight": "80px"
+        },
+        {
+          "key": "llh13",
+          "blockId": "llh13",
+          "component": "user.block.AdminForm",
+          "slotName": "main",
+          "pageName": "user.admincp.permission.manage",
+          "pageSize": "large",
+          "title": "Search",
+          "isRemote": 0,
+          "appName": "user",
+          "formName": "formName",
+          "blockLayout": "Admin Form",
+          "minHeight": "60vh",
+          "fixedFooter": true
+        }
+      ]
+    }
+  },
+  "core.admincp.tabs.setting": {
+    "info": {
+      "title": "Admin/Setting tabs",
+      "bundle": "admincp",
+      "name": "core.admincp.tabs.setting"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "qwsdf",
+          "component": "user.block.AdminFormTabs",
+          "slotName": "main",
+          "pageName": "core.admincp.tabs.setting",
+          "pageSize": "large",
+          "title": "EditSetting",
+          "blockLayout": "Admin Form",
+          "fixedFooter": true
+        }
+      ]
+    }
+  },
+  "core.admincp.setting": {
+    "info": {
+      "title": "Admin/Setting",
+      "bundle": "admincp",
+      "name": "core.admincp.setting"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "acpsf",
+          "key": "acpsf",
+          "component": "admincp.block.searchSettingForm",
+          "slotName": "main",
+          "pageSize": "large",
+          "title": "Admin Search Setting Form",
+          "blockLayout": "Admin Form",
+          "actionName": "searchSettingForm",
+          "minHeight": "80px"
+        },
+        {
+          "blockId": "s5qwi",
+          "component": "user.block.AdminForm",
+          "slotName": "main",
+          "pageName": "core.admincp.setting",
+          "pageSize": "large",
+          "title": "EditSetting",
+          "isRemote": true,
+          "loadFrom": "pageParams",
+          "blockLayout": "Admin Form",
+          "fixedFooter": true
+        }
+      ]
+    }
+  },
+  "core.admincp.process_wizard": {
+    "info": {
+      "title": "",
+      "bundle": "admincp",
+      "name": "core.admincp.process_wizard"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "s5qrr",
+          "component": "admincp.block.ProcessWizard",
+          "slotName": "main",
+          "blockLayout": "Admin - Contained"
+        }
+      ]
+    }
+  },
+  "core.admincp.overview": {
+    "info": {
+      "bundle": "admincp",
+      "name": "core.admincp.overview"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminOverview",
+          "slotName": "main",
+          "pageSize": "large",
+          "freeze": false,
+          "blockLayout": "Admin Table"
+        }
+      ]
+    }
+  },
+  "core.admincp.maintain.site-statistic": {
+    "info": {
+      "title": "Admin/Maintain/Statistic",
+      "bundle": "admincp",
+      "name": "core.admincp.maintain.site-statistic"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminSiteStatistic",
+          "slotName": "main",
+          "pageSize": "large",
+          "blockProps": {
+            "variant": "contained",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "textPrimary",
+            "blockStyle": {
+              "ml": 2,
+              "mr": 2,
+              "mt": 2,
+              "mb": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            },
+            "contentStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pb": 2,
+              "pr": 2
+            },
+            "footerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            },
+            "noHeader": false
+          },
+          "freeze": false
+        }
+      ]
+    }
+  },
+  "core.admincp.maintain.reparser": {
+    "info": {
+      "title": "Admin/Maintain/Reparser",
+      "bundle": "admincp",
+      "name": "core.admincp.maintain.reparser"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminManageTextReparser",
+          "slotName": "main",
+          "pageSize": "large",
+          "title": "Text Reparser",
+          "blockProps": {
+            "variant": "Admin Table",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": false,
+            "blockStyle": {
+              "mb": 2
+            },
+            "contentStyle": {
+              "ml": 2,
+              "mt": 2,
+              "mr": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 3,
+              "pr": 2,
+              "pb": 1,
+              "dividerVariant": "0"
+            }
+          },
+          "freeze": false
+        }
+      ]
+    }
+  },
+  "core.admincp.maintain.missed-settings": {
+    "info": {
+      "title": "Admin/Maintain/Missed Settings",
+      "bundle": "admincp",
+      "name": "core.admincp.maintain.missed-settings"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminMissedSettings",
+          "slotName": "main",
+          "pageSize": "large",
+          "title": "Find Missed Settings",
+          "blockProps": {
+            "variant": "contained",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "textPrimary",
+            "blockStyle": {
+              "ml": 2,
+              "mr": 2,
+              "mt": 2,
+              "mb": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            },
+            "contentStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pb": 2,
+              "pr": 2
+            },
+            "footerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            },
+            "noHeader": false
+          },
+          "freeze": false
+        }
+      ]
+    }
+  },
+  "core.admincp.maintain.duplicated-files": {
+    "info": {
+      "title": "Admin/Maintain/Duplicated Files",
+      "bundle": "admincp",
+      "name": "core.admincp.maintain.duplicated-files"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminManageDuplicatedFiles",
+          "slotName": "main",
+          "pageSize": "large",
+          "title": "Manage Duplicated Files",
+          "blockProps": {
+            "variant": "contained",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "textPrimary",
+            "blockStyle": {
+              "ml": 2,
+              "mr": 2,
+              "mt": 2,
+              "mb": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            },
+            "contentStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pb": 2,
+              "pr": 2
+            },
+            "footerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            },
+            "noHeader": false
+          },
+          "freeze": false
+        }
+      ]
+    }
+  },
+  "core.admincp.maintain.crontab": {
+    "info": {
+      "title": "Admin/Maintain/ManageCronTab",
+      "bundle": "admincp",
+      "name": "core.admincp.maintain.crontab"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminManageCronTab",
+          "slotName": "main",
+          "pageSize": "large",
+          "title": "Manage CronTab",
+          "blockProps": {
+            "variant": "Admin Table",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": false,
+            "blockStyle": {
+              "mb": 2
+            },
+            "contentStyle": {
+              "ml": 2,
+              "mt": 2,
+              "mr": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 3,
+              "pr": 2,
+              "pb": 1,
+              "dividerVariant": "0"
+            }
+          },
+          "freeze": false
+        }
+      ]
+    }
+  },
+  "core.admincp.maintain.counter": {
+    "info": {
+      "title": "Admin/Maintain/Counter",
+      "bundle": "admincp",
+      "name": "core.admincp.maintain.counter"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminManageCounter",
+          "slotName": "main",
+          "pageSize": "large",
+          "title": "Manage Counter",
+          "blockProps": {
+            "variant": "contained",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "textPrimary",
+            "blockStyle": {
+              "ml": 2,
+              "mr": 2,
+              "mt": 2,
+              "mb": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            },
+            "contentStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pb": 2,
+              "pr": 2
+            },
+            "footerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            },
+            "noHeader": false
+          },
+          "freeze": false
+        }
+      ]
+    }
+  },
+  "core.admincp.maintain.cache": {
+    "info": {
+      "title": "Admin/Maintain/Cache",
+      "bundle": "admincp",
+      "name": "core.admincp.maintain.cache"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminMaintainCache",
+          "slotName": "main",
+          "pageSize": "large",
+          "title": "Manage Cache",
+          "freeze": false,
+          "blockLayout": "Admin Form"
+        }
+      ]
+    }
+  },
+  "core.admincp.detail.datagrid": {
+    "info": {
+      "bundle": "admincp",
+      "name": "core.admincp.detail.datagrid"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "sba8a",
+          "component": "core.block.AdminBrowseSearchForm",
+          "slotName": "main",
+          "title": "Filter Form",
+          "blockLayout": "Admin Form",
+          "isRemote": true
+        },
+        {
+          "blockId": "sbaas",
+          "component": "core.block.AdminDetailDataListing",
+          "slotName": "main",
+          "title": "Detail",
+          "blockLayout": "Admin Form"
+        },
+        {
+          "blockId": "sba8b",
+          "component": "core.block.AdminBrowseDataGrid",
+          "slotName": "main",
+          "title": "Data Grid",
+          "blockLayout": "Admin Table"
+        }
+      ]
+    }
+  },
+  "core.admincp.dashboard": {
+    "large": {
+      "templateName": "dashboard",
+      "blocks": [
+        {
+          "blockId": "32rjd",
+          "component": "core.block.AdminSiteStatus",
+          "slotName": "bottom2",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large"
+        },
+        {
+          "blockId": "8r8c",
+          "component": "core.block.AdminDepthStats",
+          "slotName": "top2",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "blockId": "4i9sq",
+          "component": "core.block.AdminChartStats",
+          "slotName": "top",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "title": "",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "blockId": "v9pu",
+          "component": "core.block.AdminLatestAdminLogin",
+          "slotName": "bottom1",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large"
+        },
+        {
+          "blockId": "mh7r",
+          "component": "core.block.AdminNewsUpdate",
+          "slotName": "bottom",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "title": "",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "blockId": "50j5",
+          "component": "core.block.AdminActiveAdmin",
+          "slotName": "bottom2",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "title": "",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "component": "core.block.sidebarPrimaryMenu",
+          "slotName": "side",
+          "blockId": "8r659",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "textPrimary",
+            "noFooter": true,
+            "noHeader": true,
+            "blockStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pr": 2,
+              "pb": 2
+            }
+          },
+          "title": ""
+        },
+        {
+          "component": "core.block.sidebarShortcutMenu",
+          "slotName": "side",
+          "blockId": "2c7hu",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle2",
+            "titleColor": "textPrimary",
+            "noFooter": true,
+            "noHeader": false,
+            "blockStyle": {
+              "pl": 2,
+              "pr": 2,
+              "pb": 4
+            },
+            "headerStyle": {
+              "pb": 2
+            }
+          },
+          "title": "shortcuts"
+        },
+        {
+          "blockId": "yvxfo",
+          "component": "core.block.AdminItemStatistic",
+          "slotName": "main",
+          "blockProps": {
+            "variant": "contained",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "textPrimary",
+            "noFooter": true,
+            "noHeader": false,
+            "blockStyle": {
+              "ml": 2,
+              "mt": 2,
+              "mr": 2,
+              "mb": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "contentStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pr": 2,
+              "pb": 2
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pr": 2,
+              "pb": 1,
+              "dividerVariant": "0"
+            },
+            "footerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pr": 2,
+              "pb": 1,
+              "dividerVariant": "0"
+            }
+          },
+          "freeze": false
+        }
+      ]
+    },
+    "sMedium": {
+      "templateName": "dashboard",
+      "blocks": [
+        {
+          "blockId": "32rjd",
+          "component": "core.block.AdminSiteStatus",
+          "slotName": "bottom1",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large"
+        },
+        {
+          "blockId": "8r8c",
+          "component": "core.block.AdminDepthStats",
+          "slotName": "top2",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "blockId": "4i9sq",
+          "component": "core.block.AdminChartStats",
+          "slotName": "top",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "title": "",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "blockId": "v9pu",
+          "component": "core.block.AdminLatestAdminLogin",
+          "slotName": "bottom1",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large"
+        },
+        {
+          "blockId": "mh7r",
+          "component": "core.block.AdminNewsUpdate",
+          "slotName": "bottom",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "title": "",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "blockId": "50j5",
+          "component": "core.block.AdminActiveAdmin",
+          "slotName": "bottom1",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "title": "",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "component": "core.block.sidebarPrimaryMenu",
+          "slotName": "side",
+          "blockId": "8r659",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "textPrimary",
+            "noFooter": true,
+            "noHeader": true,
+            "blockStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pr": 2,
+              "pb": 2
+            }
+          },
+          "title": ""
+        },
+        {
+          "component": "core.block.sidebarShortcutMenu",
+          "slotName": "side",
+          "blockId": "2c7hu",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle2",
+            "titleColor": "textPrimary",
+            "noFooter": true,
+            "noHeader": false,
+            "blockStyle": {
+              "pl": 2,
+              "pr": 2,
+              "pb": 4
+            },
+            "headerStyle": {
+              "pb": 2
+            }
+          },
+          "title": "shortcuts"
+        },
+        {
+          "blockId": "yvxfo",
+          "component": "core.block.AdminItemStatistic",
+          "slotName": "main",
+          "blockProps": {
+            "variant": "contained",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "textPrimary",
+            "noFooter": true,
+            "noHeader": false,
+            "blockStyle": {
+              "ml": 2,
+              "mt": 2,
+              "mr": 2,
+              "mb": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "contentStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pr": 2,
+              "pb": 2
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pr": 2,
+              "pb": 1,
+              "dividerVariant": "0"
+            },
+            "footerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pr": 2,
+              "pb": 1,
+              "dividerVariant": "0"
+            }
+          },
+          "freeze": false
+        }
+      ]
+    },
+    "small": {
+      "templateName": "dashboard",
+      "blocks": [
+        {
+          "blockId": "32rjd",
+          "component": "core.block.AdminSiteStatus",
+          "slotName": "bottom2",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large"
+        },
+        {
+          "blockId": "8r8c",
+          "component": "core.block.AdminDepthStats",
+          "slotName": "top2",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "blockId": "4i9sq",
+          "component": "core.block.AdminChartStats",
+          "slotName": "top",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "title": "",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "blockId": "v9pu",
+          "component": "core.block.AdminLatestAdminLogin",
+          "slotName": "bottom1",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large"
+        },
+        {
+          "blockId": "mh7r",
+          "component": "core.block.AdminNewsUpdate",
+          "slotName": "bottom",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "title": "",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "blockId": "50j5",
+          "component": "core.block.AdminActiveAdmin",
+          "slotName": "bottom2",
+          "pageName": "core.admincp.dashboard",
+          "pageSize": "large",
+          "title": "",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": true,
+            "padding": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "gutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "contentGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "headerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "footerGutter": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0
+            },
+            "blockStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "contentStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "headerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            },
+            "footerStyle": {
+              "pl": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "ml": 0,
+              "mt": 0,
+              "mr": 0,
+              "mb": 0,
+              "bgColor": "0",
+              "borderStyle": "0",
+              "borderColor": "0"
+            }
+          }
+        },
+        {
+          "component": "core.block.sidebarPrimaryMenu",
+          "slotName": "side",
+          "blockId": "8r659",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle1",
+            "titleColor": "textPrimary",
+            "noFooter": true,
+            "noHeader": true,
+            "blockStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pr": 2,
+              "pb": 2
+            }
+          },
+          "title": ""
+        },
+        {
+          "component": "core.block.sidebarShortcutMenu",
+          "slotName": "side",
+          "blockId": "2c7hu",
+          "blockProps": {
+            "variant": "plained",
+            "titleComponent": "h2",
+            "titleVariant": "subtitle2",
+            "titleColor": "textPrimary",
+            "noFooter": true,
+            "noHeader": false,
+            "blockStyle": {
+              "pl": 2,
+              "pr": 2,
+              "pb": 4
+            },
+            "headerStyle": {
+              "pb": 2
+            }
+          },
+          "title": "shortcuts"
+        },
+        {
+          "blockId": "yvxfo",
+          "component": "core.block.AdminItemStatistic",
+          "slotName": "main",
+          "blockProps": {
+            "variant": "contained",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "textPrimary",
+            "noFooter": true,
+            "noHeader": false,
+            "blockStyle": {
+              "ml": 2,
+              "mt": 2,
+              "mr": 2,
+              "mb": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "contentStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pr": 2,
+              "pb": 2
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pr": 2,
+              "pb": 1,
+              "dividerVariant": "0"
+            },
+            "footerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pr": 2,
+              "pb": 1,
+              "dividerVariant": "0"
+            }
+          },
+          "freeze": false
+        }
+      ]
+    },
+    "info": {
+      "bundle": "admincp",
+      "name": "core.admincp.dashboard"
+    }
+  },
+  "core.admincp.controlled": {
+    "info": {
+      "title": "",
+      "bundle": "admincp",
+      "name": "core.admincp.controlled"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "s5qrr",
+          "component": "admincp.block.controlled",
+          "slotName": "main",
+          "blockLayout": "Admin - Contained"
+        }
+      ]
+    }
+  },
+  "core.admincp.browseTree": {
+    "info": {
+      "bundle": "admincp",
+      "name": "core.admincp.browseTree"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "sba8a",
+          "component": "core.block.AdminBrowseSearchForm",
+          "slotName": "main",
+          "title": "Filter Form",
+          "blockLayout": "Admin Form",
+          "actionName": "searchForm",
+          "isRemote": true
+        },
+        {
+          "blockId": "sba8b",
+          "component": "core.block.AdminBrowseDataGrid",
+          "slotName": "main",
+          "title": "Data Grid",
+          "blockLayout": "Admin Table"
+        }
+      ]
+    }
+  },
+  "core.admincp.browse.datagrid": {
+    "info": {
+      "bundle": "admincp",
+      "name": "core.admincp.browse.datagrid"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "sba8a",
+          "component": "core.block.AdminBrowseSearchForm",
+          "slotName": "main",
+          "title": "Filter Form",
+          "blockLayout": "Admin Form",
+          "actionName": "searchForm",
+          "isRemote": true
+        },
+        {
+          "blockId": "sba8b",
+          "component": "core.block.AdminBrowseDataGrid",
+          "slotName": "main",
+          "title": "Data Grid",
+          "blockLayout": "Admin Datagrid"
+        }
+      ]
+    }
+  },
+  "core.admincp.app.uploaded": {
+    "info": {
+      "title": "Admin/Apps/Uploaded",
+      "bundle": "admincp",
+      "name": "core.admincp.app.uploaded"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "7nmnp",
+          "component": "user.block.AdminDataGrid",
+          "slotName": "main",
+          "pageName": "core.admincp.app.uploaded",
+          "pageSize": "large",
+          "title": "Uploaded",
+          "dataGridProps": {
+            "appName": "core",
+            "resourceName": "module_admin",
+            "gridName": "uploaded"
+          },
+          "blockLayout": "Admin Table"
+        }
+      ]
+    }
+  },
+  "core.admincp.app.store": {
+    "info": {
+      "title": "Admin/Apps/Uploaded",
+      "bundle": "admincp",
+      "name": "core.admincp.app.store"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "sba8a",
+          "component": "core.block.AdminBrowseSearchForm",
+          "slotName": "main",
+          "title": "Filter Form",
+          "blockLayout": "Admin Form",
+          "isRemote": true,
+          "moduleName": "app",
+          "resourceName": "app_store_product",
+          "actionName": "getSearchForm"
+        },
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminStoreApps",
+          "slotName": "main",
+          "pageName": "core.admincp.app.uploaded",
+          "pageSize": "large",
+          "moduleName": "app",
+          "resourceName": "app_store_product",
+          "actionName": "viewAll"
+        }
+      ]
+    },
+    "sMedium": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "sba8a",
+          "component": "core.block.AdminBrowseSearchForm",
+          "slotName": "main",
+          "title": "Filter Form",
+          "blockLayout": "Admin Form",
+          "isRemote": true,
+          "moduleName": "app",
+          "resourceName": "app_store_product",
+          "actionName": "getSearchForm"
+        },
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminStoreApps",
+          "slotName": "main",
+          "pageName": "core.admincp.app.uploaded",
+          "pageSize": "large",
+          "moduleName": "app",
+          "resourceName": "app_store_product",
+          "actionName": "viewAll",
+          "itemView": "app_store_product.itemView.mainCard",
+          "itemLayout": "App Store Product - Main Cards"
+        }
+      ]
+    },
+    "small": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "sba8a",
+          "component": "core.block.AdminBrowseSearchForm",
+          "slotName": "main",
+          "title": "Filter Form",
+          "blockLayout": "Admin Form",
+          "isRemote": true,
+          "moduleName": "app",
+          "resourceName": "app_store_product",
+          "actionName": "getSearchForm"
+        },
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminStoreApps",
+          "slotName": "main",
+          "pageName": "core.admincp.app.uploaded",
+          "pageSize": "large",
+          "moduleName": "app",
+          "resourceName": "app_store_product",
+          "actionName": "viewAll",
+          "itemView": "app_store_product.itemView.smallCard",
+          "itemLayout": "App Store Product - Main Cards - Small"
+        }
+      ]
+    }
+  },
+  "core.admincp.app.purchased": {
+    "info": {
+      "title": "Admin/Apps/Installed",
+      "bundle": "admincp",
+      "name": "core.admincp.app.purchased"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "tn06o",
+          "component": "user.block.AdminDataGrid",
+          "slotName": "main",
+          "pageName": "core.admincp.app.manage",
+          "pageSize": "large",
+          "title": "Installed",
+          "blockProps": {
+            "variant": "Admin Table",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "text",
+            "noFooter": true,
+            "noHeader": false,
+            "blockStyle": {
+              "mb": 2
+            },
+            "contentStyle": {
+              "ml": 2,
+              "mt": 2,
+              "mr": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 3,
+              "pr": 2,
+              "pb": 1,
+              "dividerVariant": "0"
+            }
+          },
+          "dataGridProps": {
+            "appName": "core",
+            "resourceName": "module_admin",
+            "gridName": "installed"
+          }
+        }
+      ]
+    }
+  },
+  "core.admincp.app.manage": {
+    "info": {
+      "title": "Admin/Apps/Installed",
+      "bundle": "admincp",
+      "name": "core.admincp.app.manage"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "tn06o",
+          "component": "user.block.AdminDataGrid",
+          "slotName": "main",
+          "pageName": "core.admincp.app.manage",
+          "pageSize": "large",
+          "title": "Installed",
+          "dataGridProps": {
+            "appName": "core",
+            "resourceName": "module_admin",
+            "gridName": "installed"
+          },
+          "blockLayout": "Admin Table"
+        }
+      ]
+    }
+  },
+  "admincp.user.login": {
+    "large": {
+      "templateName": "blank",
+      "blocks": [
+        {
+          "component": "user.block.AdminUserLogin",
+          "slotName": "main",
+          "blockId": "bu56b"
+        }
+      ]
+    },
+    "info": {
+      "bundle": "admincp",
+      "name": "admincp.user.login"
+    }
+  },
+  "core.admincp.app.store.show": {
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "core.block.AdminAppStoreShowDetail",
+          "slotName": "main",
+          "blockLayout": "Main Form",
+          "title": "Upgrade Wizard"
+        }
+      ]
+    },
+    "info": {
+      "bundle": "admincp",
+      "name": "core.admincp.app.store.show"
+    }
+  },
+  "admincp.app.upgrade": {
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "app.block.UpgradeWizard",
+          "slotName": "main",
+          "blockLayout": "Admin - Contained"
+        }
+      ]
+    },
+    "info": {
+      "bundle": "admincp",
+      "name": "admincp.app.upgrade"
+    }
+  },
+  "user.admincp.role.browse": {
+    "info": {
+      "title": "Admin/Members/Role",
+      "bundle": "admincp",
+      "name": "user.admincp.role.browse"
+    },
+    "large": {
+      "templateName": "admincp",
+      "blocks": [
+        {
+          "blockId": "vuf9b",
+          "component": "user.block.AdminManageRole",
+          "slotName": "main",
+          "title": "Manage Roles",
+          "blockProps": {
+            "variant": "contained",
+            "titleComponent": "h2",
+            "titleVariant": "secondary",
+            "titleColor": "textPrimary",
+            "blockStyle": {
+              "ml": 2,
+              "mr": 2,
+              "mt": 2,
+              "mb": 2,
+              "bgColor": "paper",
+              "borderRadius": "base"
+            },
+            "headerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            },
+            "contentStyle": {
+              "pl": 2,
+              "pt": 2,
+              "pb": 2,
+              "pr": 2
+            },
+            "footerStyle": {
+              "pl": 2,
+              "pt": 1,
+              "pb": 1,
+              "pr": 2,
+              "dividerVariant": "0"
+            }
+          },
+          "freeze": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "large": {
+    "templateName": "simple",
+    "blocks": [
+      {
+        "blockId": "qgda",
+        "component": "core.ui.login_languages",
+        "slotName": "main",
+        "blockLayout": "Login Languages"
+      },
+      {
+        "blockId": "yrtm",
+        "component": "core.block.mainForm",
+        "slotName": "main",
+        "title": "",
+        "blockLayout": "Full Screen Form"
+      }
+    ]
+  },
+  "small": {
+    "templateName": "mobile",
+    "blocks": [
+      {
+        "blockId": "qgda",
+        "component": "core.ui.login_languages",
+        "slotName": "main",
+        "blockLayout": "Login Languages"
+      },
+      {
+        "component": "core.block.mainForm",
+        "slotName": "main",
+        "title": "",
+        "blockLayout": "Full Screen Form",
+        "blockId": "yrtm"
+      }
+    ]
+  },
+  "info": {
+    "bundle": "web",
+    "name": "user.social.register"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@metafox/form",
+  "version": "5.0.1",
+  "main": "src/index.tsx",
+  "author": "developer@phpfox.com",
+  "license": "MIT",
+  "private": false,
+  "repository": {},
+  "dependencies": {
+    "shallowequal": "^1.1.0"
+  },
+  "scripts": {
+    "test": "metafox jest-unittest"
+  },
+  "peerDependencies": {}
+}
