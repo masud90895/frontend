@@ -7,9 +7,10 @@
  * thumbnail:
  */
 import { createBlock, ListViewBlockProps } from '@metafox/framework';
+import Base from './Base';
 
 const UserListingBlock = createBlock<ListViewBlockProps>({
-  extendBlock: 'core.block.listview',
+  extendBlock: Base,
   name: 'UserListingBlock',
   overrides: {
     dataSource: {

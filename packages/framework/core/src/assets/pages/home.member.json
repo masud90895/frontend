@@ -3,6 +3,14 @@
     "templateName": "three-column-fixed",
     "blocks": [
       {
+        "component": "user.block.allOnlineUsers",
+        "slotName": "main",
+        "blockId": "allOnlineUsers",
+        "title": "",
+        "blockLayout": "Blocker Simple",
+        "noHeader": false
+      },
+      {
         "component": "feed.block.statusComposer",
         "slotName": "main",
         "blockId": "15t1m",
@@ -120,6 +128,14 @@
   "small": {
     "templateName": "mobile",
     "blocks": [
+      {
+        "component": "user.block.allOnlineUsers",
+        "slotName": "main",
+        "blockId": "allOnlineUsers",
+        "title": "",
+        "blockLayout": "Blocker Simple",
+        "noHeader": false
+      },
       {
         "component": "feed.block.statusComposer",
         "slotName": "main",
