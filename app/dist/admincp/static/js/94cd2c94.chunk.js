@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-photo-blocks-Page-PageProfilePhotoOverview-Block"],{70925:function(e,o,t){t.r(o),o.default=(0,t(43961).WvA)({name:"PageProfilePhotoOverview",extendBlock:"core.block.listview",overrides:{contentType:"photo",emptyPage:"hide"},defaults:{}})}}]);

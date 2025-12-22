@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["pages.static"],{85089:function(a,e,t){t.r(e),e.default=(0,t(43961).SWd)({appName:"static-page",resourceName:"static_page",pageName:"static.page"})}}]);

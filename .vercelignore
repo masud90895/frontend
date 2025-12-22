@@ -1,0 +1,72 @@
+# Development files
+*.log
+*.local
+.env.local
+.env.development
+.env.test
+
+# Testing
+coverage/
+tests/
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+jest.config.js
+
+# Documentation
+*.md
+!README.md
+docs/
+thumbnails/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts (will be generated during build)
+app/dist/
+*.tsbuildinfo
+
+# Development scripts
+scripts/
+nodemon.json
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Git
+.git/
+.gitignore
+
+# Package manager
+node_modules/
+.pnpm-store/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Installation files
+app/install/
+
+# Source files (only need built output)
+packages/**/*.ts
+packages/**/*.tsx
+!packages/**/*.d.ts
+app/src/
+
+# Config files not needed in production
+tsconfig.json
+tsconfig.build.json
+babel.config.js
+.eslintrc*
+.prettierrc*
+

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-user-components-UserProfileSeo"],{64112:function(e,t,n){n.r(t);var r=n(43961);t.default=function(){let{useSubject:e}=(0,r.PCX)();return!e(),null}}}]);

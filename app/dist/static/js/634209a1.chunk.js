@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-poll-blocks-PollListing-Block"],{64982:function(e,l,t){t.r(l),l.default=(0,t(43961).WvA)({name:"PollListingBlock",extendBlock:"core.block.listview",overrides:{contentType:"poll",dataSource:{apiUrl:"/poll"}},defaults:{title:"polls",itemView:"blog.itemView.mainCard"}})}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-admincp-blocks-AdminDetailDataListing-ItemData-Divider"],{29640:function(e,t,a){a.r(t),a.d(t,{default:function(){return i}});var n=a(58875),c=a(30758);function i(){return c.createElement(n.A,{sx:{my:2}})}}}]);

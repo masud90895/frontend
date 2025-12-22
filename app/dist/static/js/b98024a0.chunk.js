@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-web-bundle-admincp-theme-admincp-views-tsx"],{10630:function(e,t,n){n.r(t),n.d(t,{default:function(){return c},views:function(){return u}});let u={};function c(e){e.views=u}}}]);

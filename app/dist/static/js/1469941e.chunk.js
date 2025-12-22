@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-admincp-blocks-AdminDetailDataListing-ItemData-Typo"],{46301:function(e,t,a){a.r(t);var n=a(18851),r=a(30758);t.default=e=>{let{value:t,props:a}=e;return r.createElement(n.A,a,r.createElement("div",{dangerouslySetInnerHTML:{__html:t}}))}}}]);

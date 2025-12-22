@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-photo-blocks-ListPhoto-Block"],{4048:function(t,e,o){o.r(e),e.default=(0,o(43961).WvA)({name:"PhotoListingBlock",extendBlock:"core.block.listview",overrides:{contentType:"photo"},defaults:{title:"Photos",dataSource:{apiUrl:"/photo"},itemView:"photo.itemView.mainCard"}})}}]);

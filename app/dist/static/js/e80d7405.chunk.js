@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-admincp-blocks-AdminDetailDataListing-ItemData-DateValue"],{9068:function(t,a,e){e.r(a),e.d(a,{default:function(){return u}});var n=e(43961);function u({format:t,value:a}){let{moment:e}=(0,n.PCX)();return a?e(a).format(t):null}}}]);

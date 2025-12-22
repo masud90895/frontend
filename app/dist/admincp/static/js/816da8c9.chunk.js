@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-core-blocks-MainListingSponsor-Block"],{91262:function(e,o,s){s.r(o),o.default=(0,s(43961).WvA)({extendBlock:"core.block.listview",defaults:{isTrackingSponsor:1,showWhen:["truthy","acl.advertise.advertise_sponsor.view"]}})}}]);

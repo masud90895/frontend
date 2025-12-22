@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-layout-blocks-Fragment-Fragment"],{29122:function(e,t,n){n.r(t),n.d(t,{default:function(){return c}});var r=n(43961),a=n(66521),u=n.n(a);function c({elements:e}){let{jsxBackend:t}=(0,r.PCX)();return u()(e)&&e.length?t.render(e):null}}}]);

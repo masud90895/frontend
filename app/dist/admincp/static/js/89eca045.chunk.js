@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_metafox_react=self.webpackChunk_metafox_react||[]).push([["metafox-ui-SmartDataGrid-DatagridError"],{49424:function(r,e,t){t.r(e),t.d(e,{default:function(){return u}});var a=t(30758),n=t(45126);function u({error:r}){return a.createElement(n.A,{error:r})}}}]);
