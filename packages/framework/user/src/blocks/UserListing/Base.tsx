@@ -139,7 +139,8 @@ function ListViewPagination({
             passesFilter = user?.gender?.id === 1;
             break;
           case 'admins':
-            passesFilter = user?.extra?.has_admin_access === true;
+            passesFilter =
+              user?.is_owner === true || user?.extra?.has_admin_access === true;
             break;
           default:
             passesFilter = true;
